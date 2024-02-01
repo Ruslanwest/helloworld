@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/home', function (req, res) {
-    res.send('{ "response": "Hello World Jalu Segala solusi" }');
+    res.send('{ "response": "Hello World Jalu Segala solusi anda" }');
 });
 app.get('/about', function (req, res) {
     res.send('{ "response": " Great!, It works! Yuda" }');
